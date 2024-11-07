@@ -7,9 +7,9 @@ class AppController extends AppLoader {
         super.getResp(
             {
                 endpoint: 'sources',
-                options: {
-                    category: NewsCategory.General
-                }
+                // options: {
+                //     category: NewsCategory.General
+                // }
             },
             callback
         );
